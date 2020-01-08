@@ -1,0 +1,45 @@
+2020-01-08 11:29:54,312 INFO: rest_api in use [in 21]
+2020-01-08 11:30:21,079 INFO: rest_api in use [in 21]
+2020-01-08 11:30:21,286 INFO: rest_api in use [in 21]
+2020-01-08 11:31:29,111 ERROR: 'description' [in 74]
+2020-01-08 11:35:38,385 INFO: rest_api in use [in 21]
+2020-01-08 11:35:38,413 ERROR:  [in 106]
+2020-01-08 11:35:38,413 ERROR: Exception on /frameworks/<name> [DELETE] [in 1761]
+Traceback (most recent call last):
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2020-01-08 11:35:38,418 ERROR: local variable 'output' referenced before assignment [in 54]
+2020-01-08 11:35:38,420 ERROR: Exception on /frameworks/<name> [GET] [in 1761]
+Traceback (most recent call last):
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2020-01-08 11:35:38,425 ERROR:  [in 106]
+2020-01-08 11:35:38,425 ERROR: Exception on /frameworks/<name> [DELETE] [in 1761]
+Traceback (most recent call last):
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/harshilgohil/python/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2020-01-08 12:10:49,283 INFO: rest_api in use [in 21]
+2020-01-08 12:10:49,478 INFO: rest_api in use [in 21]
+2020-01-08 12:19:37,791 INFO: rest_api in use [in 21]
+2020-01-08 12:19:38,000 INFO: rest_api in use [in 21]
